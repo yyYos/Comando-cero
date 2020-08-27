@@ -15,3 +15,30 @@ git pull origin master
 
 _Subir todo los archivos modificados del proyecto a github_
 git push origin master
+
+_Tags_
+------
+Nos permite indicar a git cuales son los commit mas importantes de nuestro proyecto, por ejemplo cambio de variables globales para tu proyecto.
+Por lo general se nombran como v0.1,v0.2..., esto ya es a tu conciderancion.
+
+_Saber que tags hay_
+git tag
+git show-ref --tags
+
+_Agregar un tag y asignarlo a un commit_
+git tag -a nombreTag commit
+
+_Borrar tag localmente_
+git tag -d nombreTag
+
+_Publicar tag en repo remoto_
+git push origin --tags
+
+_Borrar tag del repo remoto_
+git push origin _refs/tags/nombreTag
+
+_Subir ramas a github_
+----------------------
+subir las ramas en la pagina de github que tengo en mi local
+git push origin nombreRama
+

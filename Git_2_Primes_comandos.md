@@ -29,6 +29,7 @@ _Ver los commit que hemos echo_
 -------------------------------
 muestra el nombre de commit, la hora de commit y el mensaje del commit
 git log --all --graph --decorate --oneline
+git log --stat
 
 _Ver las diferencias entre dos versiones del mismo archivo_
 git diff nombreDeCommitQueDaGitV1 nombreDeCommitQueDaGitVActual
