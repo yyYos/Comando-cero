@@ -26,7 +26,7 @@ git show nombreArchivo.txt
 
 _Ver los commit que hemos echo_
 muestra el nombre de commit, la hora de commit y el mensaje del commit
-git log
+git log --all --graph --decorate --oneline
 
 _Ver las diferencias entre dos versiones del mismo archivo_
 git diff nombreDeCommitQueDaGitV1 nombreDeCommitQueDaGitVActual
