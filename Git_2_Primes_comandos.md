@@ -1,5 +1,6 @@
 _Iniciar git, crea una carpeta (/.git/) donde guarda todos los archivos modificados con git commit_
 git init
+================================
 
 _Agregar achivos al area staged
 git add nombreArchivo.txt
@@ -25,6 +26,7 @@ _Ver los cambios_
 git show nombreArchivo.txt
 
 _Ver los commit que hemos echo_
+-------------------------------
 muestra el nombre de commit, la hora de commit y el mensaje del commit
 git log --all --graph --decorate --oneline
 
