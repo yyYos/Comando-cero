@@ -42,3 +42,7 @@ _Subir ramas a github_
 subir las ramas en la pagina de github que tengo en mi local
 git push origin nombreRama
 
+_pull request_
+--------------
+Es una momento antes de hacer el merge ya sea a la rama master o la rama de pruebas, este momento, este paso sirve para que los lideres de desarrollo aprueben los cambios y ahora si mamdarlos a master o a pruebas. Tecnicamente este trabajo lo hacen los devOps los cuales administran todo el desarrollo de integración.
+Esto es propio de gitHub
