@@ -4,7 +4,7 @@ Creamos un repositorio, agregamos un nombre a ese repo y agregamos un readme, qu
 
 Para copiar los archivos en esta ruta, copiamos la ruta https que nos y la agregamos a el siguiente comando, esto se hace desde la carpeta principal del proyecto que queremos.
 
-Con este se crea un nombre, una referencia llamada origin, podemos cambiar el nombre
+_Con este traemos el repo a nuestro disco local con una referencia llamada origin, podemos cambiar el nombre_
 git remote add origin RUTAHTTP
 
 _Muestra los repos que tenemos_
@@ -45,7 +45,9 @@ git push origin nombreRama
 _pull request_
 --------------
 Es una momento antes de hacer el merge ya sea a la rama master o la rama de pruebas, este momento, este paso sirve para que los lideres de desarrollo aprueben los cambios y ahora si mamdarlos a master o a pruebas. Tecnicamente este trabajo lo hacen los devOps los cuales administran todo el desarrollo de integración.
-Esto es propio de gitHub, estos pasos se hacen desde la pag. web de gitHub esto.
+Esto es propio de gitHub, estos pasos se hacen desde la pag. web de gitHub, y siendo colaboradora del proyecto
+GitHub muestra una notificacion donde se agrega un comentario y lo que se a modificado, la persona encargada verificara cada modificacion del proyecto y aceptara el merge, esto tambien desde la pag.
 
 _Creando un fork_
-Si queremos colaborar con un proyecto sin ser colaboradores debeos crear un fork, esto pasa demasiado con los proyecto open source.
+Si queremos colaborar con un proyecto sin ser colaboradores debemos crear un fork, esto pasa demasiado con los proyecto open source.Para colaboradores externos, personas que no estan dentro del proyecto pero quieren aportar a este, es una copia actual de repositorio.
+Si lo que queremos es estar actalizados del proyecto que estamos aportando tendremo que agregar el repo a nuestro disco local. 
