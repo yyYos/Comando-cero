@@ -50,4 +50,8 @@ GitHub muestra una notificacion donde se agrega un comentario y lo que se a modi
 
 _Creando un fork_
 Si queremos colaborar con un proyecto sin ser colaboradores debemos crear un fork, esto pasa demasiado con los proyecto open source.Para colaboradores externos, personas que no estan dentro del proyecto pero quieren aportar a este, es una copia actual de repositorio.
-Si lo que queremos es estar actalizados del proyecto que estamos aportando tendremo que agregar el repo a nuestro disco local. 
+Si lo que queremos es estar actalizados del proyecto que estamos aportando tendremo que agregar el repo a nuestro disco local.
+
+_Saber de las ramas remotas_
+git branch -r
+git branch -a
